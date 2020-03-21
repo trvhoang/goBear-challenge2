@@ -6,6 +6,7 @@ cd goBear-challenge2
 
 mvn clean install
 
-cd src/test
+mvn -Dtest=InsuranceTest test
 
-mvn -Dtest=InsuranceTest test# goBear-challenge2
+report: \target\surefire-reports\emailable-report.html
+# goBear-challenge2
